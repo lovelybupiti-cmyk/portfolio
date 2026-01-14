@@ -5,113 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./portfolio.css">
      <title>PORTFOLIO MARIO FILHO</title>
   </head>
-  <body class="bg-[#16181d] text-[#e2e4e9]">
+  <body class="bg-[#16181d] text-[#e2e4e9] font-[maven+pro]">
     <header class="py-[110px] text-center bg-[url(/assets/Background_intro.svg)] bg-cover">
-      <img class="rounded-full border-3 border-[#e3646e] p-1 m-auto"  width="200" src="assets/AdobeStock_472713009-1024x768.jpeg" alt="cachorros" >
-      <div class="my-[56px] w-[60%] m-auto">
-      <h1 class="font-[Inconsolata]">Bom dia, meu nome é <span style="color: darkgreen;">Mário Filho</span>, sou <span class="font-bold text-5xl">estudante Full Stack</span> no Digital College</h1>
-      <p>Ainda aprendendo.</p>
+      <img class="rounded-full border-3 border-[#e3646e] p-1 m-auto w-30 h-30 object-cover xl:h-[150px] xl:w-[150px]" src="assets/AdobeStock_472713009-1024x768.jpeg" alt="cachorros" >
+      <div class="my-14 w-[60%] m-auto">
+      <h1 class="font-[Inconsolata]">Bom dia, meu nome é <span class="text-(--color-red)">Mário Filho</span>, sou <span class="font-bold text-5xl text-nowrap font-[asap] block">estudante Fullstack</span> no Digital College</h1>
+      <p class="text-sm text-[#878ea1] mt-5 mb-5 w-[75%] mx-auto">Ainda aprendendo.</p>
       <div class="font-[Inconsolata] font-bold">
-        <span class="bg-[#e44d26] p-1 rounded-3xl">HTML</span>
-        <span class="bg-[#264ee4] p-1 rounded-3xl">CSS</span>
-        <span class="bg-[#e9ca31] p-1 rounded-3xl">JavaScript</span>
+        <span class="bg-[#e44d26] p-1 rounded-3xl text-black">HTML</span>
+        <span class="bg-[#264ee4] p-1 rounded-3xl text-black">CSS</span>
+        <span class="bg-[#e9ca31] p-1 rounded-3xl text-black">JavaScript</span>
       </div>
       </div>
     </header>
     <main>
-      <section>
-        <h1>Meu trabalho</h1>
-        <h2>Veja os projetos em destaque</h2>
-        <div>
-            <div>
-              <img width="300" src="assets/image (1).svg" alt="projeto travelgram">
+      <section class="px-40">
+        <div class="pt-[72px] pb-14 text-center">
+         <h1 class="text-[#E3646E] font-[Inconsolata] text-[20px]">Meu trabalho</h1>
+         <h2 class="font-bold text-2xl font-[asap]">Veja os projetos em destaque</h2>
+        </div>
+        <div class="flex justify-center flex-wrap gap-6">
+            <div class="flex bg-[#292C34] rounded-2xl w-[40%] p-3 gap-4">
+              <img src="assets/image (1).svg" alt="projeto travelgram">
               <div>
-                  <h3>Travelgram</h3>
-                  <p>Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
-                  <span>PHP</span>
-                  <span>CSS</span>
-                  <span>HTML</span>
-                  <span>JavaScript</span>
+                  <h3 class="font-bold">Travelgram</h3>
+                  <p class="text-[#C0C4CE] text-sm">Rede social onde as pessoas mostram os registros de suas viagens pelo mundo</p>
+                   <div class="font-[Inconsolata] font-bold text-sm">
+                    <span class="bg-[#e44d26] p-1 rounded-3xl text-black">HTML</span>
+                    <span class="bg-[#264ee4] p-1 rounded-3xl text-black">CSS</span>
+                    <span class="bg-[#e9ca31] p-1 rounded-3xl text-black">JavaScript</span>
+                   </div>
               </div>
             </div>
-            <div>
-              <img width="300" src="assets/image (2).svg" alt="projeto tech news">
+            <div class="flex bg-[#292C34] rounded-2xl w-[40%] p-3 gap-4">
+              <img src="assets/image (2).svg" alt="projeto tech news">
               <div>
-                  <h3>Tech News</h3>
-                  <p>Homepage de um portal de notícias sobre a área de tecnologia</p>
-                  <span>PHP</span>
-                  <span>CSS</span>
-                  <span>HTML</span>
-                  <span>JavaScript</span>
+                  <h3 class="font-bold">Tech News</h3>
+                  <p class="text-[#C0C4CE] text-sm">Homepage de um portal de notícias sobre a área de tecnologia</p>
+                   <div class="font-[Inconsolata] font-bold text-sm">
+                    <span class="bg-[#e44d26] p-1 rounded-3xl text-black">HTML</span>
+                    <span class="bg-[#264ee4] p-1 rounded-3xl text-black">CSS</span>
+                    <span class="bg-[#e9ca31] p-1 rounded-3xl text-black">JavaScript</span>
+                   </div>
+                  </div>
               </div>
-            </div>
-            <div>
-              <img width="300" src="assets/image (3).svg" alt="projeto Página de turismo">
+            <div class="flex bg-[#292C34] rounded-2xl w-[40%] p-3 gap-4">
+              <img src="assets/image (3).svg" alt="projeto Página de turismo">
               <div>
-                  <h3>Página de turismo</h3>
-                  <p>Página com as principais informações para quem quer viajar para Busan</p>
-                  <span>PHP</span>
-                  <span>CSS</span>
-                  <span>HTML</span>
-                  <span>JavaScript</span>
+                  <h3 class="font-bold">Página de turismo</h3>
+                  <p class="text-[#C0C4CE] text-sm">Página com as principais informações para quem quer viajar para Busan</p>
+                   <div class="font-[Inconsolata] font-bold text-sm">
+                    <span class="bg-[#e44d26] p-1 rounded-3xl text-black">HTML</span>
+                    <span class="bg-[#264ee4] p-1 rounded-3xl text-black">CSS</span>
+                    <span class="bg-[#e9ca31] p-1 rounded-3xl text-black">JavaScript</span>
+                   </div>
+                  </div>
               </div>
-            </div>
-            <div>
-              <img width="300" src="assets/image.svg" alt="projeto Página de receita">
+            <div class="flex bg-[#292C34] rounded-2xl w-[40%] p-3 gap-4">
+              <img src="assets/image.svg" alt="projeto Página de receita">
               <div>
-                  <h3>Página de receita</h3>
-                  <p>Página com o passo a passo de uma receita para cupcakes</p>
-                  <span>PHP</span>
-                  <span>CSS</span>
-                  <span>HTML</span>
-                  <span>JavaScript</span>
+                  <h3 class="font-bold">Página de receita</h3>
+                  <p class="text-[#C0C4CE] text-sm">Página com o passo a passo de uma receita para cupcakes</p>
+                   <div class="font-[Inconsolata] font-bold">
+                    <span class="bg-[#e44d26] p-1 rounded-3xl text-black">HTML</span>
+                    <span class="bg-[#264ee4] p-1 rounded-3xl text-black">CSS</span>
+                    <span class="bg-[#e9ca31] p-1 rounded-3xl text-black">JavaScript</span>
+                   </div>
+                  </div>
               </div>
-            </div>
-            <div>
-              <img width="300" src="assets/image (4).svg" alt="projeto refund">
+            <div class="flex bg-[#292C34] rounded-2xl w-[40%] p-3 gap-4">
+              <img src="assets/image (4).svg" alt="projeto refund">
               <div>
-                  <h3>Refund</h3>
-                  <p>Um sistema para pedido e acompanhamento de reembolso </p>
-                  <span>PHP</span>
-                  <span>CSS</span>
-                  <span>HTML</span>
-                  <span>JavaScript</span>
+                  <h3 class="font-bold">Refund</h3>
+                  <p class="text-[#C0C4CE] text-sm">Um sistema para pedido e acompanhamento de reembolso </p>
+                   <div class="font-[Inconsolata] font-bold text-sm">
+                    <span class="bg-[#e44d26] p-1 rounded-3xl text-black">HTML</span>
+                    <span class="bg-[#264ee4] p-1 rounded-3xl text-black">CSS</span>
+                    <span class="bg-[#e9ca31] p-1 rounded-3xl text-black">JavaScript</span>
+                   </div>
+                  </div>
               </div>
-            </div>
-            <div>
-              <img width="300" src="assets/image (5).svg" alt="projeto zingen">
+            <div class="flex bg-[#292C34] rounded-2xl w-[40%] p-3 gap-4">
+              <img src="assets/image (5).svg" alt="projeto zingen">
               <div>
-                  <h3>Zingen</h3>
-                  <p>Um sistema para pedido e acompanhamento de reembolso 
+                  <h3 class="font-bold">Zingen</h3>
+                  <p class="text-[#C0C4CE] text-sm">Um sistema para pedido e acompanhamento de reembolso 
                     Zingen
                     Landing Page completa e responsiva de um aplicativo de Karaokê</p>
-                  <span>PHP</span>
-                  <span>CSS</span>
-                  <span>HTML</span>
-                  <span>JavaScript</span>
+                   <div class="font-[Inconsolata] font-bold text-sm">
+                    <span class="bg-[#e44d26] p-1 rounded-3xl text-black">HTML</span>
+                    <span class="bg-[#264ee4] p-1 rounded-3xl text-black">CSS</span>
+                    <span class="bg-[#e9ca31] p-1 rounded-3xl text-black">JavaScript</span>
+                   </div>
+                  </div>
               </div>
             </div>
         </div>
-      <section>
-            <H1>FAQ</H1>
-            <details>
-              Um exemplo de portfolio
-              <summary>O que é esse site?</summary>
-            </details>
-            <details>
-            Eu
-              <summary>Quem fez esse site?</summary>
-            </details>
-            <details>
-              Com HTML
-              <summary>Como foi feito?</summary>
-            </details>
-      </section>
     </main>
     <footer></footer>
   </body>

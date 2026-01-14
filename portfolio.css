@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
-.root {
-    --font-Inconsolata: "Inconsolata", sans-serif,
-    --color-red: #e3646e
+:root {
+    --font-Inconsolata: "Inconsolata", sans-serif;
+    --font-asap: "asap", sans-serif;
+    --font-Maven-Pro: "Maven-Pro", sans-serif;
+    --color-red: #e3646e;
 }
 
+* {
+    font-family: var(--font-Maven-Pro);
+}
 
